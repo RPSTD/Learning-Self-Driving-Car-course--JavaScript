@@ -1,0 +1,27 @@
+HTML
+<!-- <!DOCTYPE html>  This is the code initial code segment that explain the HTML version. This is the 5th of version in the HTML -->
+
+
+
+<head>  #### header part include the Meta data of the HTML file. 
+    <title>The 1st try</title> ###  title is the part that name the browsers title bar. 
+    <link rel="stylesheet" href="style.css"> ### link is the way that that link the external CSS files to the HTML file
+</head>
+
+
+
+<body>  ### Body is the part that visible to the user. 
+
+    <canvas id = "myCanvas"></canvas>
+
+    <script src="main.js"></script>  ### This is the way to link the external JavaScript file to HTML 
+
+</body>
+
+css
+body{
+    margin: 0;
+    background : darkgray ;
+    overflow: hidden; ## This is very important because when we scrolling the window the window is going to too big
+    text-align: center;
+}
